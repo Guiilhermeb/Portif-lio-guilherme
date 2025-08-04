@@ -1,0 +1,120 @@
+.bege{
+    color: #814bd8;
+}
+
+.fundo{
+    background-color: #3b3b3b;
+}
+
+.azul-cria{
+    color: #00509b;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../imagens/Poppins-Medium.ttf);
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.redes{
+    background-color: #545454;
+}
+
+@font-face {
+    font-family: 'Poppinslight';
+    src: url(../imagens/Poppins-Light.ttf);
+}
+
+.poppins-l{
+    font-family: 'Poppinslight', sans-serif;
+}
+
+.border-curv{
+    border-radius: 15px;
+}
+
+.redondo{
+    border-radius: 100%;
+}
+
+.natiruts{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.djavan{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0e5c91;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.destaque {
+    border-bottom: 3px solid #0e5c91;
+    padding-bottom: 4px;
+}
+
+.card-outline-primary {
+    border: 1px solid var(--bs-primary);
+    color: var(--bs-primary);
+    background-color: transparent;
+    transition: all 0.4s ease;
+    width: 18rem;
+    border-radius: 15px;
+}
+
+.card-outline-primary:hover {
+    background-color: var(--bs-primary);
+    color: white;
+}
+
+.card-outline-primary:hover .card-text {
+    color: white;
+}
+.s-b{
+    border: 0px;
+}
+
+.img-fixa {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;  
+}
+
+.img-fixa-2 {
+    width: 120px;
+    height: 35px;
+    object-fit: cover;
+ 
+}
+
+.w-38{
+    width: 38%;
+}
